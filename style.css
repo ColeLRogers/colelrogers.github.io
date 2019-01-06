@@ -1,15 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 body {
     background-color: #1D2731;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
+    margin-left: 0;
     transform: translate(-50%, -50%);
 }
 
-
-.avatar img{
+.avatar img {
  border-radius: 50%;
  height: 200px;
  width: 200px;
@@ -17,33 +18,29 @@ body {
  display: block;
  }
 
-.content{
+.content {
  background-color: #0B3C5D;
  margin: 15px;
  max-width: 600px;
 
 }
- .about{
+.about {
  background-color: #328CC1;
  color: white;
  font-family: Raleway;
  line-height: 1.6;
  }
 
- .about p{
+.about p {
  padding: 0 10px;
  margin: 0;
  }
 
-.social{
-
-}
-
-.content div{
+.content div {
 padding: 20px 0;
 }
 
-.social .container{
+.social .container {
     display: flex;
     justify-content: center;
     padding: 0;
