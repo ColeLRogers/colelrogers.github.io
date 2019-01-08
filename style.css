@@ -2,42 +2,47 @@
 
 body {
     background-color: #1D2731;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    margin-left: 0;
-    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+@media screen and (min-width: 600px){
+    body{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        margin-left: 0;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .avatar img {
- border-radius: 50%;
- height: 200px;
- width: 200px;
- margin: auto;
- display: block;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
  }
 
 .content {
- background-color: #0B3C5D;
- margin: 15px;
- max-width: 600px;
-
+    background-color: #0B3C5D;
+    max-width: 600px;
 }
+
 .about {
- background-color: #328CC1;
- color: white;
- font-family: Raleway;
- line-height: 1.6;
+    background-color: #328CC1;
+    color: white;
+    font-family: Raleway;
+    line-height: 1.6;
  }
 
 .about p {
- padding: 0 10px;
- margin: 0;
+    padding: 0 10px;
+    margin: 0;
  }
 
 .content div {
-padding: 20px 0;
+    padding: 20px 0;
 }
 
 .social .container {
